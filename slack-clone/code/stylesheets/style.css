@@ -20,11 +20,35 @@ body {
   color: #5b5e6d;
 }
 
+img{
+  max-width: 100%;
+}
+
 /* ---- typography ---- */
+a{
+  color: #5b5e6d;
+  text-decoration: none;
+}
+
+h1{
+  color: #2C303F;
+  font-wight: 700;
+}
 
 
 /* ---- layout ---- */
+.inline-list{
+  display: flex;
+  list-style: none;
 
+}
+.inline-list li: :first-child{
+  flex-basis: 100px;
+}
+
+.inline-list li{
+  margin: 15px;
+}
 
 /* ---- nav ---- */
 
